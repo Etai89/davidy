@@ -50,17 +50,19 @@ $(document).ready(() => {
         $('#clientDeclearation').css('height', '390px')
     }
 
-    const pdf = () =>{
-        $('#print').hide()
+    const pdf = () => {
+        $('#print').hide();
         $('#buttons').hide();
-        dataVisability()
+        dataVisability();
         print();
-        // $('#buttons').toggle();
-        // $('#print').show()
-        // $('#clientDeclearation').css('height', '150px')
-        $('#fullDoc').css('display', 'none')
-        $('#thankYou').toggleClass('visible')
-    }
+    
+        // Add a delay after print
+        setTimeout(() => {
+            $('#fullDoc').css('display', 'none');
+            $('#thankYou').toggleClass('visible');
+        }, 2000); // Delay of 2000ms (2 seconds)
+    };
+    
 
     $('#print').click(() => {
         if(!$('.canvasSettings').length){

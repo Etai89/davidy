@@ -1,6 +1,6 @@
 $(document).ready(() => {
     14400 + 12000 + 9000
-    const totalA = 26400  + 2800
+    const totalA = 30000
     let total = totalA
     const firstPayment = totalA * 35 / 100
     const secondPayment = totalA * 25 / 100
