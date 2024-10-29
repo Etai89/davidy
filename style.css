@@ -1,0 +1,175 @@
+.main {
+    height: 100px;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.titleRow {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    margin-top: 50px;
+    margin-left: 250px;
+    text-align: center;
+
+}
+
+.subTitle {
+    text-align: center;
+    margin-left: 250px;
+}
+
+table {
+    background-color: rgb(224, 224, 224);
+}
+
+thead {
+    text-align: center;
+}
+
+.type {
+    width: 200px;
+    padding: 5px;
+}
+
+.amount {
+    width: 130px;
+}
+
+td {
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+#details {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn1 {
+    width: 50px;
+}
+
+#print {
+    border-radius: 10px;
+    background-color: rgb(248, 230, 230);
+    margin-top: 10px;
+}
+.signatureBtn{
+    border-radius: 10px;
+    background-color: rgb(240, 253, 238);
+}
+
+#totalPayment {
+    font-size: 20px;
+}
+
+.cRights {
+    direction: ltr;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+#div_signcontract {
+    width: 99%;
+}
+
+.popupHeader {
+    margin: 10px;
+}
+.visible{
+    display: none;
+}
+#clientId{
+    display: grid;
+    
+}
+.clientInformation{
+    width: 250px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#decleration{
+    margin: 10px;
+    
+}
+#clientDeclearation{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+#canvas{
+    width: 350px;
+}
+#thankYou{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+@media (max-width: 800px) {
+    .logoMain {
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    .box {
+        margin-top: 50px;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-right: 10px;
+    }
+
+    .logo {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    #title {
+        padding: 10px;
+        margin-top: 235px;
+        position: absolute;
+        margin-right: -10px;
+    }
+
+    .title {
+        margin-left: 0px;
+        margin-top: 10px;
+
+    }
+
+    .subTitle {
+
+        margin-left: 0px;
+    }
+
+    #details {
+        margin-top: 180px;
+        padding: 20px;
+    }
+}
