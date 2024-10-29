@@ -60,7 +60,7 @@ $(document).ready(() => {
         setTimeout(() => {
             $('#fullDoc').css('display', 'none');
             $('#thankYou').toggleClass('visible');
-        }, 2000); // Delay of 2000ms (2 seconds)
+        }, 60000); // Delay of 2000ms (2 seconds)
     };
     
 
